@@ -1,0 +1,21 @@
+{
+  "backend": "huggingface",
+  "models": {
+    "huggingface": "stabilityai/stable-diffusion-2-1",
+    "openai": "dall-e-3",
+    "stability": "stable-diffusion-xl-1024-v1-0"
+  },
+  "generation": {
+    "width": 768,
+    "height": 768,
+    "num_images": 1,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5,
+    "negative_prompt": "blurry, low quality, distorted"
+  },
+  "output": {
+    "directory": "generated_images",
+    "prefix": "ai_art",
+    "format": "png"
+  }
+}
