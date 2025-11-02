@@ -1,0 +1,17 @@
+# Core dependencies
+Pillow>=10.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Optional: For local image generation using Hugging Face models
+# Uncomment these if you want to use local models (requires more resources)
+# torch>=2.0.0
+# diffusers>=0.21.0
+# transformers>=4.30.0
+# accelerate>=0.20.0
+
+# Optional: For OpenAI DALL-E
+# openai>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
